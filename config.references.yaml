@@ -1,0 +1,20 @@
+# logging config
+log:
+  debug: false
+  file:
+    enable: false
+    path: default.log
+
+# jenkins credentials for accessing api
+jenkins:
+  username: username@example.com
+  token: tokenjenkinsapi
+
+# elasticsearch config
+elasticsearch:
+  # elasticsearch index name
+  index: jenkins
+  username: username
+  password: password
+  hosts:
+    - http://localhost:9200
